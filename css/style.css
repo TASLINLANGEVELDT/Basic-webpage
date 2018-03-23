@@ -1,0 +1,56 @@
+body {
+  background-color: pink;
+  font-size: 0.8;
+}
+
+small {
+  color: #777;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 940px;
+  margin: auto;
+  background-color: white;
+}
+
+.container:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.title {
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.title h1 {
+  float:left;
+  margin-right: 2rem;
+}
+
+.title img {
+  max-height: 350;
+}
+
+.venice {
+  margin-bottom:3rem;
+  font-size: small;
+}
+.venice img {
+  float:left;
+  margin-right: 2rem;
+}
+
+.historic:after, .historic:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.historic img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
